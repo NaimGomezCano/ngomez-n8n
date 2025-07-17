@@ -1,6 +1,6 @@
 import { useSettingsStore } from '@/stores/settings.store';
 
-const DEFAULT_TITLE = 'Workflow Automation';
+const DEFAULT_TITLE = 'EAWorkflow Automation';
 
 export function useDocumentTitle() {
 	const settingsStore = useSettingsStore();
@@ -14,7 +14,7 @@ export function useDocumentTitle() {
 	};
 
 	const reset = () => {
-		set('');
+		set('WHAT');
 	};
 
 	return { set, reset };

@@ -69,7 +69,7 @@ import type { EventBus } from '@n8n/utils/event-bus';
 import type { ProjectSharingData } from '@/types/projects.types';
 import identity from 'lodash/identity';
 
-let savedTheme: ThemeOption = 'system';
+let savedTheme: ThemeOption = 'light';
 
 try {
 	const value = getThemeOverride();
