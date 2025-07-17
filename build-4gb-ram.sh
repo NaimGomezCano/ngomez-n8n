@@ -1,1 +1,1 @@
-NODE_OPTIONS="--max-old-space-size=4096" pnpm run build
+NODE_OPTIONS="--max-old-space-size=8192" pnpm run build
