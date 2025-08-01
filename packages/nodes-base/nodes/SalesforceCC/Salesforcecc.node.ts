@@ -43,7 +43,7 @@ export class Salesforcecc implements INodeType {
 	description: INodeTypeDescription = {
 		displayName: 'Salesforcecc',
 		name: 'salesforcecc',
-		icon: 'file:salesforcecc.svg',
+		icon: 'file:salesforce.svg',
 		group: ['output'],
 		version: 1,
 		subtitle: '={{$parameter["operation"] + ": " + $parameter["resource"]}}',
