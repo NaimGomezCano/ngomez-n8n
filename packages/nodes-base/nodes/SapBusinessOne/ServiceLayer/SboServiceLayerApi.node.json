@@ -1,0 +1,10 @@
+{
+	"node": "n8n-nodes-base.sapExample",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["SAP"],
+	"resources": {
+		"credentialDocumentation": [{ "url": "https://example.com/sap-credentials-doc" }],
+		"primaryDocumentation": [{ "url": "https://example.com/sap-node-doc" }]
+	}
+}

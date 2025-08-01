@@ -22,6 +22,7 @@
   ],
   "n8n": {
     "credentials": [
+      "dist/credentials/SboServiceLayerApi.credentials.js",
       "dist/credentials/ActionNetworkApi.credentials.js",
       "dist/credentials/ActiveCampaignApi.credentials.js",
       "dist/credentials/AcuitySchedulingApi.credentials.js",
@@ -409,6 +410,7 @@
       "dist/credentials/ZulipApi.credentials.js"
     ],
     "nodes": [
+      "dist/nodes/SapBusinessOne/ServiceLayer/SboServiceLayer.node.js",
       "dist/nodes/ActionNetwork/ActionNetwork.node.js",
       "dist/nodes/ActiveCampaign/ActiveCampaign.node.js",
       "dist/nodes/ActiveCampaign/ActiveCampaignTrigger.node.js",
@@ -741,8 +743,7 @@
       "dist/nodes/RssFeedRead/RssFeedReadTrigger.node.js",
       "dist/nodes/Rundeck/Rundeck.node.js",
       "dist/nodes/S3/S3.node.js",
-      "dist/nodes/Salesforce/Salesforce.node.js",
-      "dist/nodes/Salesforce/SalesforceTrigger.node.js",
+      "dist/nodes/SalesforceCC/Salesforcecc.node.js",
       "dist/nodes/Salesmate/Salesmate.node.js",
       "dist/nodes/Schedule/ScheduleTrigger.node.js",
       "dist/nodes/SeaTable/SeaTable.node.js",

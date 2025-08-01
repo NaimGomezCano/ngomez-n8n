@@ -136,7 +136,6 @@ export class IfV2 implements INodeType {
 				}
 			}
 		});
-
 		return [trueItems, falseItems];
 	}
 }

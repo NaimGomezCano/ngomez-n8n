@@ -20,7 +20,7 @@ const versionDescription: INodeTypeDescription = {
 	icon: 'file:airtable.svg',
 	group: ['input'],
 	version: 1,
-	description: 'Read, update, write and delete data from Airtable',
+	description: 'ENGOMEz2002 Read, update, write and delete data from Airtable',
 	defaults: {
 		name: 'Airtable',
 	},
